@@ -6,8 +6,6 @@ GEM
       bson (~> 1.8.5)
     haml (4.0.2)
       tilt
-    mongo (1.8.5)
-      bson (~> 1.8.5)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -23,5 +21,4 @@ PLATFORMS
 DEPENDENCIES
   bson_ext
   haml
-  mongo
   sinatra
