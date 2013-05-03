@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 h1 {
     background-color: #333;
     color: #fff;
@@ -15,12 +18,13 @@ section {
 
 .navbar-inner {
     background: #fff;
+    padding: 0 30px!important;
 }
 
 #start {
     height: 600px;
     width: 100%;
-    top: 100px;
+    top: 120px;
 }
 
 #start aside {
@@ -37,7 +41,11 @@ section {
     height: 100px;
 }
 
-.navbar .nav li
+.navbar .nav li {
+    border-left: solid 1px #ddd;
+}
 .navbar .nav li a{
     font-size: 1.5em;
+    margin-top: 50px;
+    padding: 0 40px 40px 40px;
 }
